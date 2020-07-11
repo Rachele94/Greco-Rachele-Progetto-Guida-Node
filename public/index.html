@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Le Chat App</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<div class="Logo-text">
+					<img class='Logo' src="./LeChatLogo.svg"/>
+					<h1> LeChat App</h1>
+					</div>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username"> Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter a username..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Scegli una stanza</label>
+						<select name="room" id="room">
+							<option value="Generale">Generale</option>
+							<option value="Gossip">Gossip</option>
+							<option value="Politica">Politica</option>
+							<option value="Arte">Arte</option>
+							<option value="Letteratura">Letteratura</option>
+							<option value="Amore">Amore</option>
+							<option value="Films">Films</option>
+							<option value="Sport">Sports</option>
+							<option value="VideoGames">VideoGames</option>
+							<option value="Musica">Musica</option>
+							<option value="Moda">Moda</option>
+							<option value="Viaggi">Viaggi</option>
+							<option value="Fumetti">Fumetti</option>
+							<option value="Foods">Foods</option>
+						</select>
+					</div>
+					<button type="submit" class="btn"> Entra </button>
+				</form>
+			</main>
+		</div>
+		<p>Developed by Greco Rachele</p>
+	</body>
+</html>
